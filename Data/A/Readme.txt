@@ -1,0 +1,7 @@
+本数据集分为两个数据集，其中数据集A为7部手机拍摄的未经过预处理的成对多聚焦数据集，而数据集B则是经过参考文献[*]中的算法进行预处理后的成对的多聚焦数据集。如果仅仅为了测试算法的性能，可以直接采用数据集B进行测试。数据集A中的图像是真实大小的图像，并且多聚焦图像对之间可能存在色差、亮度差异和些许的空间扭曲，因此可以用来测试融合算法对实际场景的融合效果。由于大小的限制，整体数据集分享链接为：“https://www.aliyundrive.com/s/ajvV8WxyH13”。
+
+This dataset is divided into two datasets, where dataset A is a paired multi focus dataset captured by 5 mobile phones without preprocessing, while dataset B is a paired multi-focus dataset preprocessed by the algorithm in reference [*]. If only to test the performance of the fusion algorithm, dataset B can be directly used for testing. The images in dataset A are real size images of natrul environment, and there may be color differences, brightness differences, and some spatial distortions between multi-focus image pairs. Therefore, it can be used to test the fusion algorithm's fusion effect on actual scenes.Due to size limitations, the overall dataset sharing link is: "https://www.aliyundrive.com/s/ajvV8WxyH13".
+
+
+[*] Liu Shuaiqi, Peng Weijian, Jiang Wenjing, Yang Yang, Zhao Jie and Su Yonggang*. Multi-focus image fusion dataset and algorithm test in real environment[J]. Frontiers in Neurorobotics, 2022, 16: 1024742. 
+[**] Liu Shuaiqi, Peng Weijian, Liu Yali, Zhao Jie, Su Yonggang*, Zhang Yudong*. AFCANet: An adaptive feature concatenate attention network for multi-focus image fusion[J]. Journal of King Saud University - Computer and Information Sciences, 2023, 35(9): 101751.
