@@ -31,9 +31,9 @@ We processed raw mobile images to eliminate interference such as jitter, illumin
 3. Image cropping & resizing: Uniform 512×512 via nearest-neighbor interpolation
 
 ## 📥 Dataset Download
-### GitHub Repository Storage
-The complete dataset (raw + preprocessed) is stored in this repo, you can download it in two ways:
-1. Git clone the whole repository
-```bash
-git clone https://github.com/cvmdsp/LMIF.git
-cd LMIF
+### Full datasets (which can be used as image registration and fusion)
+The download link for the full dataset is https://zenodo.org/records/21457298, for people in china, you can download by https://download.scidb.cn/download?fileId=9812e228a8f8f16ad73fa2cd5cfc07ba&path=/V1/LMIF.zip&fileName=LMIF.zip
+
+### Test datasets (which can be used as image fusion)
+The download link for the test dataset (The preprocessed and registered image has a size of 512×512) is https://www.researchgate.net/publication/410637545
+
